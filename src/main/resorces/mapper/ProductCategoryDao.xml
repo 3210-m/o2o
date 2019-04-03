@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tl.o2o.dao.ProductCategoryDao">
+    <!--<resultMap id="ProductCategoryMap" type="com.tl.o2o.entity.ProductCategory">-->
+        <!--<id property="productCategoryId" column="product_category_id"></id>-->
+        <!--<result property="productCategoryName" column="product_category_name"/>-->
+        <!--<result property="productCategoryDesc" column="product_category_desc"/>-->
+        <!--<result property="priority" column="priority"/>-->
+        <!--<result property="createTime" column="create_time"/>-->
+        <!--<result property="lastEditTime" column="last_edit_time"/>-->
+        <!--<result property="shopId" column="shop_id"/>-->
+    <!--</resultMap>-->
+
+    <select id="getProductCategoryById" parameterType="Long" resultType="com.tl.o2o.entity.ProductCategory">
+        select
+            *
+        from
+            tb_product_category
+        where shop_id=#{shopId}
+    </select>
+
+    <!-- useGeneratedKeys="true" keyProperty="shopId" keyColumn="shop_id": 将新增主键shop_id赋值给shopId-->
+    <insert id="insertProductCategory" useGeneratedKeys="true" keyProperty="productCategoryId" keyColumn="product_category_id">
+        insert into tb_product_category(product_category_name,
+                             product_category_desc,
+                             priority,
+                             shop_id,
+                             create_time,
+                             last_edit_time)
+        values (#{productCategoryName},
+                #{productCategoryDesc},
+                #{priority},
+                #{shopId},
+                #{createTime},
+                #{lastEditTime})
+    </insert>
+
+    <delete id="deleteProductCategory" parameterType="Long">
+        delete from tb_product_category
+        where product_category_id=#{productCategoryId}
+    </delete>
+
+</mapper>

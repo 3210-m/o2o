@@ -1,0 +1,6 @@
+2018-11-14 18:00:04.354 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop (owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2018-11-14 18:00:04.418 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试3(String), test3(String), test3(String), test3(String), null, null, 2018-11-14 18:00:04.312(Timestamp), 2018-11-14 18:00:04.312(Timestamp), 0(Integer), 审核中(String)
+2018-11-14 18:00:04.446 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2018-11-14 18:00:05.496 [main] DEBUG com.tl.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, owner_id=?, shop_category_id=? where shop_id = ? 
+2018-11-14 18:00:05.497 [main] DEBUG com.tl.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试3(String), test3(String), test3(String), test3(String), home/o2o/shop/32/2018111418000446397.jpg(String), 2018-11-14 18:00:04.312(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 1(Long), 32(Long)
+2018-11-14 18:00:05.505 [main] DEBUG com.tl.o2o.dao.ShopDao.updateShop - <==    Updates: 1

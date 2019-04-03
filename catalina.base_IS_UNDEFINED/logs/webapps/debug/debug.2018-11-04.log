@@ -1,0 +1,19 @@
+2018-11-04 22:27:17.278 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop( owner_id,area_id,shop_category_id,shop_name, shop_desc,shop_addr,phone,shop_img,priority,create_time, last_edit_time,enable_status_time,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?, ?,?,?,?) 
+2018-11-04 22:28:41.870 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop( owner_id,area_id,shop_category_id,shop_name, shop_desc,shop_addr,phone,shop_img,priority,create_time, last_edit_time,enable_status,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?, ?,?,?,?) 
+2018-11-04 22:28:41.940 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试(String), test(String), test(String), test(String), test(String), null, 2018-11-04 22:28:41.316(Timestamp), null, 1(Integer), 1(Integer), 审核中(String)
+2018-11-04 22:29:28.798 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop( owner_id,area_id,shop_category_id,shop_name, shop_desc,shop_addr,phone,shop_img,priority,create_time, last_edit_time,enable_status,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?, ?,?,?,?) 
+2018-11-04 22:29:28.865 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试(String), test(String), test(String), test(String), test(String), null, 2018-11-04 22:29:28.265(Timestamp), null, 1(Integer), 1(Integer), 审核中(String)
+2018-11-04 22:29:54.492 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop( owner_id,area_id,shop_category_id,shop_name, shop_desc,shop_addr,phone,shop_img,priority,create_time, last_edit_time,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?, ?,?,?,?) 
+2018-11-04 22:29:54.568 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试(String), test(String), test(String), test(String), test(String), null, 2018-11-04 22:29:53.882(Timestamp), null, 1(Integer), 1(Integer), 审核中(String)
+2018-11-04 22:30:03.845 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop( owner_id,area_id,shop_category_id,shop_name, shop_desc,shop_addr,phone,shop_img,priority,create_time, last_edit_time,enable_status,advice) values (?,?,?,?, ?,?,?,?,?,?, ?,?,?) 
+2018-11-04 22:30:03.918 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试(String), test(String), test(String), test(String), test(String), null, 2018-11-04 22:30:03.351(Timestamp), null, 1(Integer), 审核中(String)
+2018-11-04 22:30:03.953 [main] DEBUG com.tl.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2018-11-04 23:50:12.759 [main] DEBUG com.tl.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=? where shop_id = ? 
+2018-11-04 23:50:12.833 [main] DEBUG com.tl.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 1(Long)
+2018-11-04 23:50:12.911 [main] DEBUG com.tl.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2018-11-04 23:50:52.395 [main] DEBUG com.tl.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id = ? 
+2018-11-04 23:50:52.444 [main] DEBUG com.tl.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 2018-11-04 23:50:51.931(Timestamp), 1(Long)
+2018-11-04 23:50:52.532 [main] DEBUG com.tl.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2018-11-04 23:51:36.228 [main] DEBUG com.tl.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id = ? 
+2018-11-04 23:51:36.299 [main] DEBUG com.tl.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 2018-11-04 23:51:35.542(Timestamp), 1(Long)
+2018-11-04 23:51:36.345 [main] DEBUG com.tl.o2o.dao.ShopDao.updateShop - <==    Updates: 1

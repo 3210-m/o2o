@@ -1,0 +1,6 @@
+2019-04-01 10:30:06.278 [main] DEBUG c.t.o.d.ProductCategoryDao.getProductCategoryById - ==>  Preparing: select * from tb_product_category where shop_id=? 
+2019-04-01 10:30:06.325 [main] DEBUG c.t.o.d.ProductCategoryDao.getProductCategoryById - ==> Parameters: 20(Long)
+2019-04-01 10:30:06.356 [main] DEBUG c.t.o.d.ProductCategoryDao.getProductCategoryById - <==      Total: 6
+2019-04-01 12:19:45.009 [main] DEBUG c.t.o.d.ProductCategoryDao.getProductCategoryById - ==>  Preparing: select * from tb_product_category where shop_id=? 
+2019-04-01 12:19:45.106 [main] DEBUG c.t.o.d.ProductCategoryDao.getProductCategoryById - ==> Parameters: 20(Long)
+2019-04-01 12:19:45.201 [main] DEBUG c.t.o.d.ProductCategoryDao.getProductCategoryById - <==      Total: 6
