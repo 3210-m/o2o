@@ -9,8 +9,9 @@
 .category-input {
     border: none;
     background-color: #eee;
+    width: 200px;
 }
 .product-category-name {
-    white-space: nowrap;
-    overflow-x: scroll;
-}
+     white-space: nowrap;
+     /*overflow-x: scroll;*/
+ }

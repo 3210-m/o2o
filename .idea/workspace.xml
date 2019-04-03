@@ -6,7 +6,27 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6026e795-016e-420c-be30-dd3f48694949" name="Default" comment="" />
+    <list default="true" id="6026e795-016e-420c-be30-dd3f48694949" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/product/productcategorymanagement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/product/productcategoryoperation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/product/productcategorymanagement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/product/productcategoryoperation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tl/o2o/web/productadmin/ProductAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tl/o2o/web/productadmin/ProductAdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tl/o2o/web/productadmin/ProductManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tl/o2o/web/productadmin/ProductManagementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/tl/o2o/web/productadmin/ProductAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/tl/o2o/web/productadmin/ProductAdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/tl/o2o/web/productadmin/ProductManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/tl/o2o/web/productadmin/ProductManagementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/html/product/productcategorymanagement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/html/product/productcategoryoperation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/html/shop/shopmanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/html/shop/shopmanagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/resources/css/shop/productcategorymanage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/resources/css/shop/productcategorymanage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/resources/js/product/productcategorymanagement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/resources/js/product/productcategoryoperation.js" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +35,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="o2o" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductManagementController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="114" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="95">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,25 +55,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/product/productcategorymanagement.html">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="13" selection-end-column="69" />
+            <state relative-caret-position="1026">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/product/productcategorymanagement.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="29" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/product/productcategoryoperation.js">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategoryoperation.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -63,10 +73,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategoryoperation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="779">
+              <caret line="41" column="105" selection-start-line="41" selection-start-column="105" selection-end-line="42" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -74,20 +114,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductAdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/product/productcategoryoperation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="93" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -114,32 +145,40 @@
       <find>shopoperation</find>
       <find>ShopAdminC</find>
       <find>shopStr</find>
-      <find>shop</find>
       <find>registershop</find>
       <find>registerShopUrl</find>
       <find>ShopStateEnum</find>
       <find>Long</find>
       <find>void</find>
       <find>deleteproductcategory</find>
-      <find>productcategoryadmin</find>
       <find>&lt;script type=&quot;text/javascript&quot; src=&quot;../resources/js/product/&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</find>
       <find>productcategorymanagement.js</find>
       <find>productcategoryoperation.js</find>
       <find>productcategory</find>
+      <find>shop</find>
+      <find>removeproductcategory</find>
+      <find>productcategoryoperation</find>
+      <find>productcategorymanage</find>
+      <find>deleteUrl</find>
+      <find>new</find>
+      <find>priority</find>
+      <find>addUrl</find>
+      <find>item-input</find>
+      <find>productcategoryadmin</find>
     </findStrings>
+    <replaceStrings>
+      <replace>shopadmin</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>E:\IJWorkSpace\o2o\o2o</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/tl/o2o/service/impl/ShopCategoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tl/o2o/dao/ShopCategoryDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tl/o2o/exception/ShopOperationException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tl/o2o/util/ImageUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tl/o2o/enums/ShopStateEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/common/common.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/tl/o2o/dao/ShopDao.java" />
         <option value="$PROJECT_DIR$/src/main/resorces/mapper/ShopDao.xml" />
@@ -177,14 +216,20 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopoperation.html" />
         <option value="$PROJECT_DIR$/src/test/java/com/tl/o2o/dao/ProductCategoryDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductCategoryManagementController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/product/productcategoryoperation.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductAdminController.java" />
         <option value="E:/蛋蛋的/IJWorkSpace/o2o源码/src/main/webapp/resources/js/shop/productcategorymanage.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/product/productcategoryoperation.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/product/productcategorymanagement.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/product/productcategorymanagement.html" />
+        <option value="E:/蛋蛋的/IJWorkSpace/o2o源码/src/main/java/com/imooc/myo2o/web/shop/ProductCategoryManagementController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductManagementController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/shop/productcategorymanage.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/product/productcategoryoperation.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanage.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductAdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanage.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategoryoperation.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -217,6 +262,9 @@
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -396,27 +444,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
@@ -444,16 +472,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
@@ -474,10 +492,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554082639917" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/resources/css/shop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/resources/js/shop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -489,13 +508,17 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IJWorkSpace\o2o\o2o\src\main\webapp\WEB-INF\html\product" />
-      <recent name="E:\IJWorkSpace\o2o\o2o\src\main\webapp\WEB-INF\html\shop" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IJWorkSpace\o2o\o2o\src\main\webapp\resources\js\shop" />
       <recent name="E:\IJWorkSpace\o2o\o2o\src\main\webapp\resources\css\shop" />
+      <recent name="E:\IJWorkSpace\o2o\o2o\src\main\webapp\WEB-INF\html\shop" />
+      <recent name="E:\IJWorkSpace\o2o\o2o\src\main\java\com\tl\o2o\web\shopadmin" />
       <recent name="E:\IJWorkSpace\o2o\o2o\src\test\resorces" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IJWorkSpace\o2o\o2o\src\main\webapp\WEB-INF\html\shop" />
+      <recent name="E:\IJWorkSpace\o2o\o2o\src\main\webapp\resources\js\shop" />
+      <recent name="E:\IJWorkSpace\o2o\o2o\src\main\webapp\WEB-INF\html\product" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -806,7 +829,11 @@
       <workItem from="1554099222386" duration="66000" />
       <workItem from="1554099589130" duration="3847000" />
       <workItem from="1554265570557" duration="1758000" />
-      <workItem from="1554271031499" duration="1706000" />
+      <workItem from="1554271031499" duration="2145000" />
+      <workItem from="1554273735218" duration="6815000" />
+      <workItem from="1554280592286" duration="355000" />
+      <workItem from="1554280970120" duration="28000" />
+      <workItem from="1554281023668" duration="144000" />
     </task>
     <servers />
   </component>
@@ -843,7 +870,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143288000" />
+    <option name="totallyTimeSpent" value="151069000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,8 +883,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989899" visible="true" weight="0.11188811" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989899" visible="true" weight="0.22307692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -869,18 +897,18 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.39089692" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5160839" visible="true" weight="0.44712183" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5160839" weight="0.4463807" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32841823" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.85809904" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35120642" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.48391607" side_tool="true" weight="0.291834" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32931727" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32931727" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="bottom" id="JRebel Executor" order="16" weight="0.44978783" />
       <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.5013405" side_tool="true" weight="0.39089692" />
@@ -944,6 +972,46 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -973,9 +1041,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductManagementController.java</url>
-          <line>93</line>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -990,11 +1058,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resorces/water.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/test/resorces/jdbc.property" />
-    <entry file="file://$PROJECT_DIR$/src/test/resorces/spring/spring-dao.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/resorces/mapper/AreaDao.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/resorces/mapper/ProductCategoryDao.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tl/o2o/dao/AreaDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1190,13 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tl/o2o/entity/ProductCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tl/o2o/dao/ProductCategoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1208,12 +1264,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resorces/mapper/ProductCategoryDao.xml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="39" column="37" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="37" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tl/o2o/dao/ProductCategoryDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1232,13 +1288,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1271,13 +1320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/蛋蛋的/IJWorkSpace/o2o源码/src/main/java/com/imooc/myo2o/web/shop/ProductCategoryManagementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/蛋蛋的/IJWorkSpace/o2o源码/src/main/webapp/resources/js/shop/productcategorymanage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-456">
@@ -1292,39 +1334,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/shop/productcategorymanage.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/product/productcategorymanagement.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tl/o2o/web/shopadmin/productcategorymanage.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="1425">
+          <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductManagementController.java">
+    <entry file="file://E:/蛋蛋的/IJWorkSpace/o2o源码/src/main/java/com/imooc/myo2o/web/shop/ProductCategoryManagementController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="416">
+          <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/product/productcategorymanagement.html">
+    <entry file="file://E:/蛋蛋的/IJWorkSpace/o2o源码/src/main/java/com/imooc/myo2o/web/shop/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="13" selection-end-column="69" />
+        <state relative-caret-position="171">
+          <caret line="19" column="76" lean-forward="true" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/product/productcategorymanagement.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="135">
+          <caret line="49" selection-start-line="49" selection-end-line="51" selection-end-column="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/product/productcategoryoperation.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/product/productcategorymanagement.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/shop/productcategorymanage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tl/o2o/entity/ProductCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategoryoperation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -1333,25 +1408,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="779">
+          <caret line="41" column="105" selection-start-line="41" selection-start-column="105" selection-end-line="42" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tl/o2o/web/productadmin/ProductAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/product/productcategoryoperation.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategoryoperation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="93" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="93" />
+        <state relative-caret-position="216">
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>

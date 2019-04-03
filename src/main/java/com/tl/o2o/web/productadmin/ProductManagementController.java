@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
-@RequestMapping(value = "/productcategoryadmin")
+@RequestMapping(value = "/shopadmin")
 public class ProductManagementController {
 
     @Autowired
@@ -89,24 +89,34 @@ public class ProductManagementController {
 
     }
 
-    @RequestMapping(value = "/deleteproductcategory")
-    public String deleteProductCategory(HttpServletRequest request){
+    @RequestMapping(value = "/deleteproductcategory", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> deleteProductCategory(HttpServletRequest request,Long productCategoryId){
         Map<String,Object> modelMap = new HashMap<>();
 
-        Long productCategoryId = HttpServletRequestUtil.getLong(request,"productCategoryId");
-        if(productCategoryId!=null){
+        if(productCategoryId!=null&&productCategoryId>0){
             try{
-                productCategoryService.deleteProductCategory(productCategoryId);
-                modelMap.put("success",true);
+                ProductCategoryExecution pe = productCategoryService.deleteProductCategory(productCategoryId);
+                if (pe.getState() == ProductCategoryEnum.SUCCESS.getState()) {
+                    modelMap.put("success", true);
+                } else {
+                    modelMap.put("success", false);
+                    modelMap.put("errMsg", pe.getStateInfo());
+                }
+            }catch (RuntimeException e) {
+                modelMap.put("success", false);
+                modelMap.put("errMsg", e.toString());
+                return modelMap;
             }catch (Exception e){
                 modelMap.put("success",false);
                 modelMap.put("errorMsg",e.getMessage());
+                return modelMap;
             }
         }else {
             modelMap.put("success",false);
             modelMap.put("errorMsg",ProductCategoryEnum.NULL_PRODUCTCATEGORY);
         }
-        return "product/productcategorymanagement";
+        return modelMap;
     }
 
 
