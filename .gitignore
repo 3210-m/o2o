@@ -81,3 +81,4 @@ fabric.properties
 /src/test/
 /.idea/
 /catalina.base_IS_UNDEFINED/
+/target/o2o.war

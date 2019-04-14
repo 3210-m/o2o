@@ -1,5 +1,5 @@
 $(function(){
-    var addpcUrl = '/o2o/shopadmin/addproductcategory';
+    var addpcUrl = '/o2o/productcategoryadmin/addproductcategory';
 
 
     $('#submit').click(function () {

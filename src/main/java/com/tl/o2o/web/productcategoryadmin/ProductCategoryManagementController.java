@@ -1,4 +1,4 @@
-package com.tl.o2o.web.productadmin;
+package com.tl.o2o.web.productcategoryadmin;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tl.o2o.dto.ProductCategoryExecution;
@@ -20,8 +20,8 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
-@RequestMapping(value = "/shopadmin")
-public class ProductManagementController {
+@RequestMapping(value = "/productcategoryadmin")
+public class ProductCategoryManagementController {
 
     @Autowired
     ProductCategoryService productCategoryService;
