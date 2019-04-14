@@ -103,7 +103,7 @@ public class ProductManagementController {
                     modelMap.put("success", false);
                     modelMap.put("errMsg", pe.getStateInfo());
                 }
-            }catch (RuntimeException e) {
+            }catch (CommonOperationException e) {
                 modelMap.put("success", false);
                 modelMap.put("errMsg", e.toString());
                 return modelMap;

@@ -1,6 +1,7 @@
 package com.tl.o2o.web.shopadmin;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.tl.o2o.dto.ImageHolder;
 import com.tl.o2o.dto.ShopExecution;
 import com.tl.o2o.entity.Area;
 import com.tl.o2o.entity.PersonInfo;
@@ -188,7 +189,8 @@ public class ShopManagementController {
             shop.setOwner(owner);
             ShopExecution shopExecution;
             try {
-                shopExecution = shopService.addShop(shop, shopImg.getInputStream(), shopImg.getOriginalFilename());
+                ImageHolder imageHolder = new ImageHolder(shopImg.getOriginalFilename(),shopImg.getInputStream());
+                shopExecution = shopService.addShop(shop, imageHolder);
                 if (shopExecution.getState() == ShopStateEnum.CHECK.getState()) {
                     modelMap.put("success", true);
                     //1个用户可对应、操作的多个店铺
@@ -258,9 +260,10 @@ public class ShopManagementController {
             ShopExecution shopExecution;
             try {
                 if(shopImg==null){
-                    shopExecution = shopService.modifyShop(shop,null,null);
+                    shopExecution = shopService.modifyShop(shop,null);
                 }else {
-                    shopExecution = shopService.modifyShop(shop, shopImg.getInputStream(), shopImg.getOriginalFilename());
+                    ImageHolder imageHolder = new ImageHolder(shopImg.getOriginalFilename(),shopImg.getInputStream());
+                    shopExecution = shopService.modifyShop(shop, imageHolder);
                 }
                 if (shopExecution.getState() == ShopStateEnum.SUCCESS.getState()) {
                     modelMap.put("success", true);

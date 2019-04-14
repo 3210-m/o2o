@@ -1,5 +1,6 @@
 package com.tl.o2o.service;
 
+import com.tl.o2o.dto.ImageHolder;
 import com.tl.o2o.dto.ShopExecution;
 import com.tl.o2o.entity.Shop;
 import com.tl.o2o.exception.ShopOperationException;
@@ -30,21 +31,19 @@ public interface ShopService {
     /**
      * 修改店铺信息，图片
      * @param shop
-     * @param shopImgInputStream
-     * @param fileName
+     * @param imageHolder
      * @return
      * @throws ShopOperationException
      */
-    ShopExecution modifyShop(Shop shop, InputStream shopImgInputStream, String fileName) throws ShopOperationException;
+    ShopExecution modifyShop(Shop shop, ImageHolder imageHolder) throws ShopOperationException;
 
     /**
      * 添加店铺信息，图片处理
      * @param shop
-     * @param shopImgInputStream
-     * @param fileName
+     * @param imageHolder
      * @return
      * @throws ShopOperationException
      */
-	ShopExecution addShop(Shop shop, InputStream shopImgInputStream, String fileName) throws ShopOperationException;
+	ShopExecution addShop(Shop shop, ImageHolder imageHolder) throws ShopOperationException;
 
 }

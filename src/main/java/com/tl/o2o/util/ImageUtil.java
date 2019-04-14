@@ -1,5 +1,6 @@
 package com.tl.o2o.util;
 
+import com.tl.o2o.dto.ImageHolder;
 import net.coobird.thumbnailator.Thumbnails;
 import net.coobird.thumbnailator.geometry.Positions;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
@@ -23,15 +24,15 @@ public class ImageUtil {
 	private static final SimpleDateFormat sDateFormatnew =new SimpleDateFormat("yyyyMMddHHmmss");
 	private static final Random r = new Random();
 
-	public static String generateThumbnail(InputStream thumbnailInputStream,String fileName, String targetAddr){
+	public static String generateThumbnail(ImageHolder imageHolder, String targetAddr){
 		String readfileName = getRandomFielName();
-		String extension = getFileExtension(fileName);
+		String extension = getFileExtension(imageHolder.getImageName());
 		makeDirPath(targetAddr);
 		//相对路径
 		String relativeAddr = targetAddr + readfileName + extension;
 		File dest = new File(PathUtil.getImgBasePath()+relativeAddr);
 		try {
-			Thumbnails.of(thumbnailInputStream).size(200,200)
+			Thumbnails.of(imageHolder.getImage()).size(200,200)
 					.watermark(Positions.BOTTOM_RIGHT,
 							ImageIO.read(new File(basePath + "water.jpg")), 0.5f)
 					.outputQuality(0.8f)
@@ -42,6 +43,24 @@ public class ImageUtil {
 		return relativeAddr;
 	}
 
+	public static String generateNormalImg(ImageHolder imageHolder, String targetAddr){
+		String readfileName = getRandomFielName();
+		String extension = getFileExtension(imageHolder.getImageName());
+		makeDirPath(targetAddr);
+		//相对路径
+		String relativeAddr = targetAddr + readfileName + extension;
+		File dest = new File(PathUtil.getImgBasePath()+relativeAddr);
+		try {
+			Thumbnails.of(imageHolder.getImage()).size(337,640)
+					.watermark(Positions.BOTTOM_RIGHT,
+							ImageIO.read(new File(basePath + "water.jpg")), 0.5f)
+					.outputQuality(0.9f)
+					.toFile(dest);
+		}catch (IOException e){
+			e.printStackTrace();
+		}
+		return relativeAddr;
+	}
 	/**
 	 * 生成随机文件名,年月日时分秒+五位随机数
 	 * @return

@@ -21,6 +21,9 @@ $(function(){
             success: function (data) {
                 if (data.success) {
                     $.toast('提交成功！');
+                    $('#product_category_name').val("");
+                    $('#priority').val("");
+                    $('#product_category_desc').val("");
                 } else {
                     $.toast('提交失败！ ' + data.errMsg);
                 }

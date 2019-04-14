@@ -1,6 +1,7 @@
 package com.tl.o2o.service;
 
 import com.tl.o2o.BaseTest;
+import com.tl.o2o.dto.ImageHolder;
 import com.tl.o2o.dto.ShopExecution;
 import com.tl.o2o.entity.Area;
 import com.tl.o2o.entity.PersonInfo;
@@ -42,7 +43,7 @@ public class ShopServiceTest extends BaseTest {
 		shop.setShopName("modifys");
 		File shopImg = new File("D:/prijectdev/image/tududu.jpg");
 		InputStream inputStream = new FileInputStream(shopImg);
-		ShopExecution shopExecution = shopService.modifyShop(shop,inputStream,"tududu.jpg");
+		ShopExecution shopExecution = shopService.modifyShop(shop,new ImageHolder("tududu.jpg",inputStream));
 		System.out.println("new path  :  "+ shopExecution.getShop().getShopImg());
 	}
 
@@ -68,7 +69,7 @@ public class ShopServiceTest extends BaseTest {
 		shop.setAdvice("审核中");
 		File file = new File("/Users/tangli/Documents/xiaohuangren.jpg");
 		InputStream is = new FileInputStream(file);
-		ShopExecution shopExecution = shopService.addShop(shop,is, file.getName());
+		ShopExecution shopExecution = shopService.addShop(shop,new ImageHolder( file.getName(),is));
 		assertEquals(ShopStateEnum.CHECK.getState(), shopExecution.getState());
 
 	}
