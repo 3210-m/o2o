@@ -1,6 +1,7 @@
 package com.tl.o2o.dao;
 
 import com.tl.o2o.entity.ProductCategory;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -23,5 +24,5 @@ public interface ProductCategoryDao {
      * 单用户 不验证
      * @param productCategoryId
      */
-    void deleteProductCategory(Long productCategoryId);
+    int deleteProductCategory(@Param("productCategoryId") Long productCategoryId, @Param("shopId") Long ShopId);
 }

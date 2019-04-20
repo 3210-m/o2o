@@ -33,6 +33,6 @@ public class ProductCategoryDaoTest extends BaseTest {
 
     @Test
     public void testDeleteProductCategory(){
-        productCategoryDao.deleteProductCategory(21L);
+        productCategoryDao.deleteProductCategory(21L,15L);
     }
 }

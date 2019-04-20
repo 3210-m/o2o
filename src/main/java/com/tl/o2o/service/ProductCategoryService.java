@@ -11,6 +11,6 @@ public interface ProductCategoryService {
 
     ProductCategoryExecution addProductCategory(ProductCategory productCategory);
 
-    ProductCategoryExecution deleteProductCategory(Long productCategoryId);
+    ProductCategoryExecution deleteProductCategory(Long productCategoryId,Long shopId);
 
 }

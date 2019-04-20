@@ -25,6 +25,7 @@ public class Product {
     private Date createTime;
     private Date lastEditTime;
     private Integer enableStatus;   //商品状态：0下架,1展示
+    private Integer point;
 
     private List<ProductImg> productImgList;    //详情图列表
     private ProductCategory productCategory;
