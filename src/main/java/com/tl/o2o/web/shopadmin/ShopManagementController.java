@@ -159,14 +159,14 @@ public class ShopManagementController {
             return modelMap;
         }
         //1接受并转化相应的参数（店铺信息和图片信息）
-        String shopStr = HttpServletRequestUtil.getString(request, "shopStr");
         ObjectMapper mapper = new ObjectMapper();
+        String shopStr = HttpServletRequestUtil.getString(request, "shopStr");
         Shop shop = null;
         try {
             shop = mapper.readValue(shopStr, Shop.class);
         } catch (Exception e) {
-            modelMap.put("success", false);
             modelMap.put("errorMsg", e.getMessage());
+            modelMap.put("success", false);
             return modelMap;
         }
 

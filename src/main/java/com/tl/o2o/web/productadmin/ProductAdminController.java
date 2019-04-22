@@ -17,8 +17,4 @@ public class ProductAdminController {
         return "product/productoperation";
     }
 
-//    @RequestMapping(value = "/productedit", method = RequestMethod.GET)
-//    private String productEdit() {
-//        return "product/productedit";
-//    }
 }
